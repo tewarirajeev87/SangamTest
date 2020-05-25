@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="168858" started-at="2020-05-25T06:33:40Z" finished-at="2020-05-25T06:36:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="168858" started-at="2020-05-25T06:33:40Z" finished-at="2020-05-25T06:36:29Z">
+      <class name="HomePageValidation.SangamTest.DOBBlankErrorTest">
+        <test-method status="PASS" signature="DOBBlankError()[pri:0, instance:HomePageValidation.SangamTest.DOBBlankErrorTest@5f9d02cb]" name="DOBBlankError" duration-ms="30018" started-at="2020-05-25T12:05:59Z" finished-at="2020-05-25T12:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DOBBlankError -->
+      </class> <!-- HomePageValidation.SangamTest.DOBBlankErrorTest -->
+      <class name="HomePageValidation.SangamTest.CommunityErrorMessageTest">
+        <test-method status="FAIL" signature="CommunityErrorMessage()[pri:0, instance:HomePageValidation.SangamTest.CommunityErrorMessageTest@370736d9]" name="CommunityErrorMessage" duration-ms="15799" started-at="2020-05-25T12:05:43Z" finished-at="2020-05-25T12:05:59Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-D563QBST', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.communityshaadi.android..., appPackage: com.communityshaadi.android, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.communityshaadi.android..., appPackage: com.communityshaadi.android, automationName: uiautomator2, deviceName: Android Device, newCommandTimeout: 14, noSign: true, platformName: android}, deviceApiLevel: 27, deviceManufacturer: HUAWEI, deviceModel: JSN-L42, deviceName: NDD4C18A11020124, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: NDD4C18A11020124, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 14, noSign: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 85, takesScreenshot: true, viewportRect: {height: 2137, left: 0, top: 85, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f07c9025-d031-4a0a-b7a4-17a4e8bb5ece
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(text("Create Profile for"));}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-D563QBST', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.communityshaadi.android..., appPackage: com.communityshaadi.android, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.communityshaadi.android..., appPackage: com.communityshaadi.android, automationName: uiautomator2, deviceName: Android Device, newCommandTimeout: 14, noSign: true, platformName: android}, deviceApiLevel: 27, deviceManufacturer: HUAWEI, deviceModel: JSN-L42, deviceName: NDD4C18A11020124, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: NDD4C18A11020124, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 14, noSign: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 85, takesScreenshot: true, viewportRect: {height: 2137, left: 0, top: 85, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f07c9025-d031-4a0a-b7a4-17a4e8bb5ece
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(text("Create Profile for"));}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at HomePageValidation.SangamTest.Utilities.scrollToText(Utilities.java:17)
+	at HomePageValidation.SangamTest.CommunityErrorMessageTest.CommunityErrorMessage(CommunityErrorMessageTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CommunityErrorMessage -->
+      </class> <!-- HomePageValidation.SangamTest.CommunityErrorMessageTest -->
+      <class name="HomePageValidation.SangamTest.DOBValidDateErrorTest">
+        <test-method status="PASS" signature="DOBValidDateError()[pri:0, instance:HomePageValidation.SangamTest.DOBValidDateErrorTest@3108bc]" name="DOBValidDateError" duration-ms="51070" started-at="2020-05-25T12:04:11Z" finished-at="2020-05-25T12:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DOBValidDateError -->
+      </class> <!-- HomePageValidation.SangamTest.DOBValidDateErrorTest -->
+      <class name="HomePageValidation.SangamTest.HomeEmailValidationTest">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:HomePageValidation.SangamTest.HomeEmailValidationTest@527740a2]" name="killAllNodes" is-config="true" duration-ms="3013" started-at="2020-05-25T12:03:40Z" finished-at="2020-05-25T12:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="FAIL" signature="HomeEmailValidation()[pri:0, instance:HomePageValidation.SangamTest.HomeEmailValidationTest@527740a2]" name="HomeEmailValidation" duration-ms="41046" started-at="2020-05-25T12:05:02Z" finished-at="2020-05-25T12:05:43Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index: 8, Size: 8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 8, Size: 8
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at HomePageValidation.SangamTest.HomeEmailValidationTest.HomeEmailValidation(HomeEmailValidationTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeEmailValidation -->
+      </class> <!-- HomePageValidation.SangamTest.HomeEmailValidationTest -->
+      <class name="HomePageValidation.SangamTest.ValidateHomePageTest">
+        <test-method status="PASS" signature="ValidateHomePage()[pri:0, instance:HomePageValidation.SangamTest.ValidateHomePageTest@13a5fe33]" name="ValidateHomePage" duration-ms="27862" started-at="2020-05-25T12:03:43Z" finished-at="2020-05-25T12:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHomePage -->
+      </class> <!-- HomePageValidation.SangamTest.ValidateHomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
